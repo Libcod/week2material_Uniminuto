@@ -8,10 +8,12 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 // Angular Material
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import {MatInputModule} from "@angular/material/input";
+import {MatSelectModule} from "@angular/material/select";
+import {MatButtonModule} from "@angular/material/button";
 
 // Componentes
 import { LoginComponent } from './components/login/login.component';
-import {MatSelectModule} from "@angular/material/select";
+
 
 
 @NgModule({
@@ -26,6 +28,7 @@ import {MatSelectModule} from "@angular/material/select";
     MatSlideToggleModule,
     MatInputModule,
     MatSelectModule,
+    MatButtonModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
