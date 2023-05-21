@@ -5,14 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-// Angular Material
-import { MatSlideToggleModule } from '@angular/material/slide-toggle';
-import {MatInputModule} from "@angular/material/input";
-import {MatSelectModule} from "@angular/material/select";
-import {MatButtonModule} from "@angular/material/button";
+
+
+
 
 // Componentes
 import { LoginComponent } from './components/login/login.component';
+import {SharedModule} from "./components/shared/shared.module";
+
 
 
 
@@ -25,10 +25,8 @@ import { LoginComponent } from './components/login/login.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatSlideToggleModule,
-    MatInputModule,
-    MatSelectModule,
-    MatButtonModule,
+    SharedModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
