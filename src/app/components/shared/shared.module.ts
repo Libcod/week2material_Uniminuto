@@ -13,6 +13,9 @@ import {MatIconModule} from '@angular/material/icon';
 import {HttpClientModule} from "@angular/common/http";
 import {MatTableModule} from '@angular/material/table';
 import {MatTooltipModule} from '@angular/material/tooltip';
+import {MatPaginatorModule} from '@angular/material/paginator';
+
+
 
 
 import {ReactiveFormsModule} from "@angular/forms";
@@ -34,6 +37,7 @@ import {ReactiveFormsModule} from "@angular/forms";
     HttpClientModule,
     MatTableModule,
     MatTooltipModule,
+    MatPaginatorModule,
   ],
   exports: [
     MatSlideToggleModule,
@@ -48,6 +52,7 @@ import {ReactiveFormsModule} from "@angular/forms";
     HttpClientModule,
     MatTableModule,
     MatTooltipModule,
+    MatPaginatorModule,
 
   ]
 })
