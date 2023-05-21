@@ -1,11 +1,11 @@
 <mat-toolbar color="primary">
-  <span>AppUsers</span>
+  <span>App Uniminuto</span>
   <span class="example-spacer"></span>
-  <button mat-button>Dashboard</button>
-  <button mat-button>Usuarios</button>
-  <button mat-button>Reportes</button>
+  <button mat-button routerLink="/dashboard">Dashboard</button>
+  <button mat-button routerLink="/dashboard/usuarios">Usuarios</button>
+  <button mat-button routerLink="/dashboard/reportes">Reportes</button>
   <span class="example-spacer"></span>
-  <button mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
+  <button routerLink="/logout" mat-icon-button class="example-icon" aria-label="Example icon-button with share icon">
     <mat-icon>logout</mat-icon>
   </button>
 </mat-toolbar>
